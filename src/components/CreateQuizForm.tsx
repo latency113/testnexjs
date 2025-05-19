@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { NewQuiz } from "@/types/questions"; // ถ้าใช้ tsconfig paths
+import { NewQuiz } from "@/types/questions";
 import { toast, ToastContainer } from "react-toastify";
 import { api } from "@/services/api";
 
@@ -11,7 +11,7 @@ type Props = {
 const CreateQuizForm = ({ onSubmit, onCancel }: Props) => {
   const [question, setQuestion] = useState("");
   const [options, setOptions] = useState(["", "", "", ""]);
-  const [answer, setAnswer] = useState<number | null>(null);
+  const [answer, setAnswer] = useState<number>();
   const [tags, setTags] = useState("");
 
   const handleOptionChange = (index: number, value: string) => {
