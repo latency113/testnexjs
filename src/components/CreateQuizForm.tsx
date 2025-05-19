@@ -1,6 +1,4 @@
 "use client";
-
-import axios from "axios";
 import { useState } from "react";
 import { NewQuiz } from "@/types/questions"; // ถ้าใช้ tsconfig paths
 import { toast, ToastContainer } from "react-toastify";

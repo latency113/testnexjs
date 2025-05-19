@@ -4,10 +4,7 @@ import { useState } from "react";
 import CreateQuizForm from "../CreateQuizForm";
 import { NewQuiz } from "@/types/questions";
 
-
-type Props = {};
-
-const Navbar = ({}: Props) => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

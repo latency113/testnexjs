@@ -1,6 +1,4 @@
-type Props = {}
-
-export default function NotFound({}: Props) {
+export default function NotFound() {
   return (
     <div className="flex min-h-screen items-center justify-center">
         <div className="flex flex-col items-center justify-center text-center">

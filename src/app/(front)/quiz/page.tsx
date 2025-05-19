@@ -1,9 +1,7 @@
 import QuizPage from "./Quiz";
 import Link from "next/link";
 
-type Props = {};
-
-export default function Quiz({}: Props) {
+export default function Quiz() {
   return (
     <>
       <div>

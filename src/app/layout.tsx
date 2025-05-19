@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 
 
