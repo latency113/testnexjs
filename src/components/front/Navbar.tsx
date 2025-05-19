@@ -3,6 +3,7 @@
 import { useState } from "react";
 import CreateQuizForm from "../CreateQuizForm";
 import { NewQuiz } from "@/types/questions";
+import Link from "next/link"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,9 @@ const Navbar = () => {
     <>
       <nav className="flex justify-between items-center p-4 text-blue-500">
         <div className="text-lg font-bold">
-          <h1>QuizApp</h1>
+          <Link href={"/"}>
+            QuizApp
+          </Link>
         </div>
         <button
           onClick={() => setIsOpen(true)}
